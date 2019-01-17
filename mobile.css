@@ -1,0 +1,8 @@
+* {
+    border: 1px dotted black;
+}
+@media all and (min-width: 576px) {
+    body {
+        background-color: orange;
+    }
+}
