@@ -116,7 +116,7 @@ div#articel4 p {
 
     #footer {
         grid-area: footer;
-        background-color:rgb(153, 255, 255);
+        background-color:rgb(51, 204, 204);
         height: 20vh;
         margin: 15px;
         color:rgb(255, 51, 51) ;
@@ -128,7 +128,7 @@ div#footer h1 {
 }
 .datum {
     font-family: 'Lato', sans-serif;
-    color: white;
+    color: black;
     margin-left: 10px;
 }
 
