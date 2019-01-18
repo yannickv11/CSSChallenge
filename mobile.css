@@ -6,52 +6,57 @@
 
     #header {
         background-color:rgb(255, 224, 102) ;
-        height: 20vh;
+        height: 25vh;
         font-family: 'PT Sans Narrow', sans-serif;
         color: rgb(255, 51, 51) ;
     }
     div#header h1 {
         text-align: center;
+        color:rgb(255, 51, 51) ;
+        font-family: 'Bungee Inline', cursive;
     }
     div#header h2 {
-        margin: 5px;
+       display: flex;
+        justify-content: space-between;
+        margin-left: 5px;
+        color:rgb(255, 51, 51) ;
     }
 
     #container {
         display: grid;
-        height: 215vh;
+        height: auto;
         grid-template-areas:
-    "article1 article1"
-    "article2 article2"
-    "article3 article3"
-    "article4 article4"
+    "articel1 articel1"
+    "articel2 articel2"
+    "articel3 articel3"
+    "articel4 articel4"
     "footer footer";
         background-color: rgb(255, 51, 51);
         font-family: 'Roboto', sans-serif;
 
     }
 
-    #article1 {
-        grid-area: article1;
-        font-family: 'Roboto', sans-serif;
+    #articel1 {
+        grid-area: articel1;
         margin: 10px;
 
     }
-    div#article1 h2 {
+    div#articel1 h2 {
         color: rgb(255, 224, 102);
         margin-top: 5px;
+
     }
-    div#article1 h4 {
+    div#articel1 h4 {
         color: rgb(255, 224, 102);
         margin-top: 5px;
     }
 
-    div#article1 p {
-        font-family: 'Roboto:700', sans-serif;
+    div#articel1 p {
+
     }
    .readmore {
        color: rgb(255, 224, 102);
-       font-family: 'Roboto:700', sans-serif;
+
 
    }
    .filemap {
@@ -61,58 +66,52 @@
 
 
 
-    #article2 {
-        grid-area: article2;
-        font-family: 'Roboto', sans-serif;
+    #articel2 {
+        grid-area: articel2;
         margin: 10px;
     }
-div#article2 h2 {
+div#articel2 h2 {
     color: rgb(255, 224, 102);
     margin-top: 5px;
 }
-div#article2 h4 {
+div#articel2 h4 {
     color: rgb(255, 224, 102);
     margin-top: 5px;
 }
-div#article2 p {
-    font-family: 'Roboto:700', sans-serif;
+div#articel2 p {
 }
 
 
 
 
-    #article3 {
-        grid-area: article3;
-        font-family: 'Roboto', sans-serif;
+    #articel3 {
+        grid-area: articel3;
         margin: 10px;
     }
 
-div#article3 h2 {
+div#articel3 h2 {
     color: rgb(255, 224, 102);
     margin-top: 5px;
 }
-div#article3 h4 {
+div#articel3 h4 {
     color: rgb(255, 224, 102);
     margin-top: 5px;
 }
 div#article3 p {
-    font-family: 'Roboto:700', sans-serif;
 }
-#article4 {
-    grid-area: article4;
-    font-family: 'Roboto', sans-serif;
+#articel4 {
+    grid-area: articel4;
     margin: 10px;
 }
-div#article4 h2 {
+div#articel4 h2 {
     color: rgb(255, 224, 102);
     margin-top: 5px;
 }
-div#article4 h4 {
+div#articel4 h4 {
     color: rgb(255, 224, 102);
     margin-top: 5px;
 }
-div#article4 p {
-    font-family: 'Roboto:700', sans-serif;
+div#articel4 p {
 }
 
     #footer {
@@ -123,13 +122,15 @@ div#article4 p {
         color:rgb(255, 51, 51) ;
     }
 div#footer h1 {
-    font-family: 'Lato:700', sans-serif;
+    font-family: 'Lato:400', sans-serif;
     margin-left: 10px;
     margin-top: 70px;
 }
 .datum {
     font-family: 'Lato', sans-serif;
-    color: rgb(255, 224, 102);
+    color: white;
     margin-left: 10px;
 }
+
+
 
